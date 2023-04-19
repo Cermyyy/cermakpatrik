@@ -1,0 +1,514 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+#obal{
+    max-width: 1920px;
+    margin: auto;
+    background-color: rgb(245, 245, 245);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+header{
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+#nav1{
+    display: flex;
+    justify-content: flex-start;
+}
+#nav3{
+    display: flex;
+    justify-content:end;
+    padding-right: 40px;
+}
+header ul { 
+    padding: 0; 
+    list-style: none; 
+    display: flex;
+    text-align: center;
+}
+header li { 
+    display: flex; 
+    position: relative;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+header #nav3 a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    
+    display: flex;
+    padding: 5px 15px;
+    position: relative;
+}
+header #nav3 a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: flex;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.8s ease 0s, left 0.8s ease 0s;
+    width: 0;
+}
+header #nav3 a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 30px;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+}
+h1:hover{
+    text-decoration: underline;
+}
+main a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer p{
+    color: #fff;
+    margin-left: 20px;
+}
+footer ul{
+    list-style:none;
+    display: flex;
+}
+footer li{
+    margin: 10px 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.navfooter{
+    padding: 10px 100px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#foot_nav{
+    padding-bottom: 30px;
+}
+footer img{
+    margin-top: 10px;
+}
+footer div{
+    height: 3px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 80%;
+    align-self: center;
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    
+    padding:0px 15px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+footer a:hover::after{
+    width: 100%; 
+    left: 0;
+} 
+footer a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: flex;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 1s ease 0s, left 1s ease 0s;
+    width: 0;
+}
+.footnav1{
+    padding: 5px 15px;
+}
+footer #nahoru{
+    color: #fff;
+    text-decoration: none;
+}
+footer #nahoru:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+#zdroj:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+#článek section ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#článek section ul li{
+    margin-left: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+section article{
+    display: flex;
+    flex-direction: column;
+}
+
+div #článek{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/pexels-pixabay-235985.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+section p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#článek nav img{
+    width: 15.5vw;
+    margin: 5px;
+}
+
+#článek section{
+    background-color: rgb(240, 240, 240);
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+}
+
+#článek nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom:100px ;
+}
+
+#článek #prvniobr img{
+    width: 45vw;
+}
+
+#článek #prvniobr{
+    margin: 0px;
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 4vh;
+}
+
+h6{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+#konec{
+    margin-top: 50px;
+}
+
+
+#komentare{
+    display: flex;
+    justify-content: center;
+}
+#script{
+    margin: 20px 0px 15px 5.5vw;
+    color: red;
+}
+#comzadani{
+    border: 2px solid #aaa;
+    height: 16vh;
+    width: 89vw;
+    border-radius: 10px;
+    margin: 0px 5vw;
+}
+textarea{
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    margin-left: 5.3vw;
+    margin-bottom: 40px;
+    margin-top: 5px;
+
+    background-color: #0088dc;
+    border:#0088dc solid 2px;
+    color: whitesmoke;
+
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 8px;
+}
+#h3komentare{
+    margin:60px 0px 15px 4.8vw ;
+    font-size: 28px;
+}
+
+
+
+#komentare p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#odpoved img{
+    width: 50px;
+    border-radius: 25px;
+}
+#odpovedi{
+    margin-bottom: 60px;
+}
+#odpoved{
+    margin-left: 6vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+#odpoved p{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#odpoved article{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#odpoved article img{
+    height: 50px;
+}
+#odpoved article p{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+}
+#odpoved div{
+    margin-left: 15px;
+}
+#zdroj{
+    display: flex;
+    justify-content: center;
+    margin-top: -75px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1600px)
+ {
+    header a{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 34px;
+    }
+    header #nav3 a{
+        font-size: 17px;
+    }
+
+ } 
+ 
+ @media(max-width:1366px)
+ {
+    #nadpis_1{
+        margin-left: 70px;
+    }
+    #jedna{
+        margin-left: 100px;
+    }
+    #druha p{
+        font-size: 14px;
+    }
+    #kun{
+        margin-right: -10.5%;
+    }
+    header a{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    header #nav3 a{
+        font-size: 13px;
+    }
+ }   
+
+ @media(max-width:1000px)
+ {
+    header{
+        flex-direction: row;
+        justify-content: none;
+        align-items: center;
+        height: 9vh;
+    }
+    header nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        margin-left: 20px;
+    }
+    header #nav3 a{
+        font-size: 2.4vw;
+        margin: 0px;
+        padding: 7px 0px;
+    }
+    header img{
+        max-height: 5vh;
+    }
+    h1{
+        font-size: 4.8vw;
+        padding:0px;
+    }
+    header ul{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding: 8px 0px;
+    }
+    header li{
+        margin:0px
+    }
+    #nav2{
+        margin:0px;
+    }
+    #nav3{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #nadpis_1{
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    #dva{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        margin-top: 40px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer li{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    footer a{
+        padding: 10px 0px;
+    }
+    footer img{
+        margin-top: 5px;
+    }
+    section{
+        width: 75%;
+    }
+    #článek #prvniobr img{
+        width: 65vw;
+    }
+    #článek nav img{
+        width: 33vw;
+    }
+    #odpoved article{
+        width: 90vw;
+    }
+    #článek section{
+        padding: 30px;
+        padding-top: -50px;
+    }
+    h2{
+        margin-top: 0px;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
